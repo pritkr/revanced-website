@@ -18,6 +18,9 @@ import Wave from '$lib/components/atoms/Wave.svelte';
 		href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap"
 		rel="stylesheet"
 	/>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 	<meta name="og:title" content="ReVanced"/>
 	<meta name="og:image" itemprop="image" content="/embed.png">
 	<meta property="og:description" content="An extensible framework for building application mods.">
@@ -48,10 +51,12 @@ import Wave from '$lib/components/atoms/Wave.svelte';
 	}
 
 	:global(body) {
+		width: 100vw;
 		margin: 0;
 		padding: 0;
 		line-height: 1.3;
-		background-color: #0f111a;
+		background-color: #161c23;
+
 	}
 
 	:global(html, body) {
@@ -65,11 +70,10 @@ import Wave from '$lib/components/atoms/Wave.svelte';
 
 	:root {
 		--white: #fff;
-		--red: #ff4151;		
-		--red-glow: #ff838d40;
-		--grey-one: #1c1e29;
-		--grey-two: #2b2d3a;
-		--grey-three: #3e404f;
+		--red: #8bbaf4;		
+		--grey-one: #252B31;
+		--grey-two: #28313b;
+		--grey-three: #3B4858;
 		--grey-four: #1B1E29;
 		--grey-five: #D0D0D0;
 		--grey-six: #a19e9e;
@@ -86,7 +90,9 @@ import Wave from '$lib/components/atoms/Wave.svelte';
 
 	:global(h1) {
 		color: var(--white);
-		font-weight: 800;
+		font-weight: 700;
+		letter-spacing: -0.03em;
+		line-height: 0.75em;
 	}
 
 	:global(h2) {

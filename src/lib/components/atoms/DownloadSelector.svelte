@@ -23,7 +23,6 @@
 
 <style>
 	.download-selection {
-		background-color: var(--grey-two);
 		border-radius: 15px;
         justify-content: center;
 		height:100%;

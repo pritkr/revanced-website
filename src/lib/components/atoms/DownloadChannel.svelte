@@ -37,6 +37,7 @@
 
 	button.active {
 		background-color: var(--red);
+		color:#003258;
 		box-shadow: 0px 0px 32px 1px var(--red-glow);
 		font-weight: 600;
 	}

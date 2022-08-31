@@ -9,10 +9,7 @@
 
 	h1 {
 		color: var(--white);
-		font-weight: 800;
 		font-size: 6rem;
-		letter-spacing: -0.04em;
-		line-height: 0.75em;
 	}
 	@media screen and (max-width: 1919px) {
 		h1 {

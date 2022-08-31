@@ -5,10 +5,8 @@
 </script>
 
 <div>
-	<button>
-		<a {href}>
+	<button href={href}>
 			<img {src} {alt} />
-		</a>
 	</button>
 </div>
 
@@ -19,8 +17,8 @@
 		height: 60px;
 		padding: 14px;
 		cursor: pointer;
-		border-radius: 200px;
-		transition: transform 0.4s var(--bezier-one);
+		border-radius: 20px;
+		transition: all 0.4s var(--bezier-one);
 		background-color: var(--grey-four);
 		color: var(--white);
 		user-select: none;
@@ -37,6 +35,7 @@
 
 	div:hover > button {
 		transform: translateY(-5%);
+		background-color: var(--grey-two);
 	}
 
 	button:hover img {

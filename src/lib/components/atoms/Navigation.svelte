@@ -13,17 +13,16 @@
 <style>
 	li {
 		border: var(--grey-six);
-		width: 140px;
 		text-align: center;
 		list-style: none;
 		display: inline-block;
 		position: relative;
-		font-weight: 300;
+		font-weight: 600;
 		align-items: center;
 		border: var(--grey-six);
 		transition-timing-function: var(--bezier-one);
 		transition-duration: 0.25s;
-		padding: 10px 20px;
+		padding: 11px 30px;
 		border-radius: 200px;
 	}
 
@@ -32,15 +31,15 @@
 		text-decoration: none;
 		font-size: 1rem;
 		user-select: none;
+		border-radius: 200px;
 	}
 
 	li:hover {
-		font-weight: 600;
-		border: 3px solid var(--grey-two);
+		background-color: var(--grey-one);
 	}
 
 	li.selected	 {
-		font-weight: 600;
-		border: 3px solid var(--red);
+		background-color: var(--grey-three);
+		color:#D7E3F7;
 	}
 </style>

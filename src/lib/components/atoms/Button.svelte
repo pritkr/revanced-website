@@ -6,25 +6,23 @@
 
 </script>
 
-<a {href}>
-	<button class={type} style="font-size: {fontsize};">
-			<slot/>
-	</button>
-</a>
+<button class={type} style="font-size: {fontsize};" href="{href}">
+		<slot/>
+</button>
 
 <style>
-	a {
-		color: var(--white);
-		text-decoration: none;
-	} 
+
 
 	button,
 	.button-secondary {
+		
 		font-weight: 600;
 		color: var(--white);
-		border: 3px solid var(--grey-three);
+		color: var(--white);
+		text-decoration: none;
+		border: none;
 		border-radius: 200px;
-		padding: 12px 40px;
+		padding: 12px 35px;
 		cursor: pointer;
 		background-color: transparent;
 		transition: transform 0.4s var(--bezier-one), box-shadow 0.4s var(--bezier-one);
@@ -32,9 +30,10 @@
 	}
 
 	.button-primary {
-		border: 3px solid var(--red);
+		border: 1.5px solid var(--red);
 		background-color: var(--red);
 		box-shadow: 0px 0px 32px 1px var(--red-glow);
+		color: #003258;
 	}
 
 	.button-primary:hover {

@@ -13,8 +13,8 @@
 		</h2>
 
 		<div class="hero-buttons">
-			<Button kind="primary" href="/download" fontsize="1.3rem">Download</Button>
-			<Button href="/docs" fontsize="1.3rem">Read The Docs</Button>
+			<Button kind="primary" href="/download" fontsize="1.2rem">Download</Button>
+			<Button href="/docs" fontsize="1.2rem">Read the docs &nbsp; -></Button>
 		</div>
 	</div>
 </section>
@@ -46,7 +46,7 @@
 	}
 
 	.hero-buttons {
-		gap: 1rem;
+		gap: 0.25rem;
 		display: flex;
 		user-select: none;
 	}

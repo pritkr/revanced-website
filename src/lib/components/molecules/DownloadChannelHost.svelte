@@ -24,11 +24,20 @@
 
 <style>
 	.download-channel {
+		display:flex;
+		justify-content: center;
+		align-items: center;
 		background-color: var(--grey-one);
 		border-radius: 200px;
-		padding: 0.5rem 0.5rem;
+		width:50%;
         display: grid;
 		grid-template-columns: 1fr 1fr;
 		gap:1rem;
+	}
+
+	div {
+		display:flex;
+		justify-content: center;
+		align-items: center;
 	}
 </style>
